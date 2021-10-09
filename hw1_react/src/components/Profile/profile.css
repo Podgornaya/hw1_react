@@ -1,0 +1,76 @@
+.profile {
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .description {
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box;
+    width: 24vw;
+    padding: 50px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  
+  
+  .Avatar {
+    border-radius: 50%;
+    width:150px;
+    align-self: center;
+  }
+  
+  .Name {
+    margin: 0;
+    padding-top:1vw ;
+    font-weight:bold;
+    font-size: 2vw;
+    align-self: center;
+  }
+  
+  .Tag, .Location {
+    margin: 0;
+    padding-top:1vw ;
+    color: grey;
+    font-size: 1.5vw;
+    align-self: center;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  .stats {
+    
+    margin:0;
+    padding:0;
+    width: 24vw;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    flex-wrap:nowrap;
+    border-radius: 0px 0px 10px 10px;
+  
+  }
+  .boxForValue{
+    padding-top:15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-basis: 33.33%; 
+    flex-direction: column;
+    background-color: #d1d1d1;
+    border-color: #282c34;
+  }
+  .label {
+    color: grey;
+    font-size: 1.3vw;
+    align-self: center;
+  }
+  .quantity {
+    font-weight:bold;
+    font-size: 1.3vw;
+    align-self: center;
+    
+  }
